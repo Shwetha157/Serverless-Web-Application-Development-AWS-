@@ -28,7 +28,7 @@ The frontend is hosted using **AWS Amplify** with integrated CI/CD pipelines for
 
 ## 🏗️ Architecture Overview
 
-1. **Amplify** hosts the frontend and handles CI/CD from GitHub.
+1. **Amplify** hosts the frontend.
 2. **API Gateway** exposes RESTful routes like `/notes`, `/notes/{id}`.
 3. **Lambda functions** execute backend logic (CRUD).
 4. **DynamoDB** stores user notes with high availability and performance.
@@ -38,7 +38,7 @@ The frontend is hosted using **AWS Amplify** with integrated CI/CD pipelines for
 
 ## 📦 Skills Demonstrated
 
-- AWS Amplify setup and CI/CD configuration
+- AWS Amplify setup
 - Writing and deploying Lambda functions with Node.js
 - Configuring API Gateway endpoints and integrations
 - DynamoDB schema design and data operations
